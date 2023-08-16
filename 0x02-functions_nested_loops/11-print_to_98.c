@@ -1,23 +1,3 @@
-#include "main.h"
-
-/**
- * add - adds two integers and returns the result
- * @a: int to be added to b
- * @b: int to be added to a
- * Return: sum of a and b
- */
-int add(int a, int b)
-{
-	int c;
-
-	c = a + b;
-
-	return (c);
-}
-
-
-11-print_to_98.c
-
 #include <stdio.h>
 #include "main.h"
 
@@ -50,4 +30,3 @@ void print_to_98(int n)
 		}
 	}
 }
-
