@@ -7,7 +7,7 @@
  * @head: double pointer to the list_t list
  * @str: new string to add in the node
  *
- * Return: the next element of node then when it's not available it returns NULL
+ * Return: the next not NULL  then next
  */
 list_t *add_node(list_t **head, const char *str)
 {
