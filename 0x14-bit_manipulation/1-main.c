@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *me
  * Return: Always 0.
  */
 int main(void)
