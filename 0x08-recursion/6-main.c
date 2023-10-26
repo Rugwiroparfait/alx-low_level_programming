@@ -10,30 +10,21 @@ int main(void)
 {
     int r;
 
-    r = wildcmp("main.c", "*.c");
+    r = is_prime_number(1);
     printf("%d\n", r);
-    r = wildcmp("main.c", "m*a*i*n*.*c*");
+    r = is_prime_number(1024);
     printf("%d\n", r);
-    r = wildcmp("main.c", "main.c");
+    r = is_prime_number(16);
     printf("%d\n", r);
-    r = wildcmp("main.c", "m*c");
+    r = is_prime_number(17);
     printf("%d\n", r);
-    r = wildcmp("main.c", "ma********************************c");
+    r = is_prime_number(25);
     printf("%d\n", r);
-    r = wildcmp("main.c", "*");
+    r = is_prime_number(-1);
     printf("%d\n", r);
-    r = wildcmp("main.c", "***");
+    r = is_prime_number(113);
     printf("%d\n", r);
-    r = wildcmp("main.c", "m.*c");
-    printf("%d\n", r);
-    r = wildcmp("main.c", "**.*c");
-    printf("%d\n", r);
-    r = wildcmp("main-main.c", "ma*in.c");
-    printf("%d\n", r);
-    r = wildcmp("main", "main*d");
-    printf("%d\n", r);
-    r = wildcmp("abc", "*b");
+    r = is_prime_number(7919);
     printf("%d\n", r);
     return (0);
-
 }
