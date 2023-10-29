@@ -42,17 +42,17 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 0; i < argc ; i++)
+	for (i = 1; i < argc ; i++)
 	{
 		if (!is_positive_number(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
 		}
-		sum = atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
 
-	printf("%d/n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
