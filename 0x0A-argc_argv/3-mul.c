@@ -7,8 +7,8 @@
  * @argv: An array containing the command-line arguments.
  *
  * Description:
- *   This program multiplies two numbers .
- *   "Error" and returns 1.
+ *   This program multiplies two numbers. If the program does not receive two
+ *   arguments, it prints "Error" and returns 1.
  *
  * Return: 0 upon successful completion, 1 if an error occurs.
  */
@@ -22,12 +22,12 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = atoi(argv[1]);/*convert first number*/
-	num2 = atoi(argv[2]); /*convert second number*/
+	num1 = atoi(argv[1]); /* Convert the first number to an integer */
+	num2 = atoi(argv[2]); /* Convert the second number to an integer */
 
-	result = num1 * num2; /*perfom multiplication*/
+	result = num1 * num2; /* Perform multiplication */
 
-	printf("%d\n", result); /*prints the results*/ 
+	printf("%d\n", result); /* Print the result */
 
 	return (0);
 }
