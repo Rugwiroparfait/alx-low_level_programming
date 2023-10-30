@@ -3,7 +3,7 @@
 /**
  * main - prints the minimum number of conoins to make change for the amount
  * of money
- * @argv: number of commanfdline arguments.
+ * @argc: number of commanfdline arguments.
  * @argv: array that contains the program command line arguments.
  * Return: 0 -success.
  */
