@@ -1,4 +1,5 @@
-# 0x0D. C - What's my name
+# 0x0F-function_pointers
+
 This repository contains C programs and header files that demonstrate the use of preprocessor directives in the C programming language.
 ## 0. What's my name
 
