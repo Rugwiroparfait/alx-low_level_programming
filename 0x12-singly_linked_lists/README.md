@@ -1,7 +1,3 @@
-Certainly! Below is a sample README.md for the 0x12-singly_linked_lists project:
-
-markdown
-Copy code
 # 0x12. C - Singly linked lists
 
 ## Project Overview
