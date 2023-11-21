@@ -67,4 +67,3 @@ listint_t *find_listint_loop(listint_t *head);
 void _putchar(char c);
 
 #endif /* MAIN_H */
-
