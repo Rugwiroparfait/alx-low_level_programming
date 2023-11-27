@@ -26,6 +26,8 @@ int elf_header(const char *elf_filename);
 
 /* Additional functions */
 size_t _strlen(char *s);
+char *create_buffer(char *file);
+void close_file(int fd);
 
 
 #endif /* MAIN_H */
